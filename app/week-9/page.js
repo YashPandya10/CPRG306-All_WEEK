@@ -20,7 +20,7 @@ export default function Page() {
       ) : (
         <div>
           <p>Welcome, {user.displayName} ({user.email})</p>
-          <button onClick={handleSignOut}>Sign Out</button>
+          <button onClick={handleSignOut}> Sign Out</button><br/>
           <a href="/week-9/shopping-list">Go to Shopping List</a>
         </div>
       )}
